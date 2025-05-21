@@ -1,0 +1,90 @@
+{
+    "journal": {
+      "nomJournal": "MignonMag",
+      "phraseAccroche": "La dose quotidienne de douceur venue du monde animal",
+      "texteAppelAction": "Abonnez-vous pour recevoir chaque semaine des nouvelles adorables du règne animal",
+      "articlePrincipal": {
+        "titre": "Les quokkas : les animaux les plus souriants de la planète",
+        "description": "Portrait de ce petit marsupial australien devenu star des réseaux sociaux pour son éternel sourire.",
+        "date": "21 Mai 2025",
+        "theme": "Stars du web animalier",
+        "image": "https://cdn.pixabay.com/photo/2020/10/20/05/28/quokka-5668839_1280.jpg"
+      },
+      "articles": [
+        {
+          "titre": "Les bébés loutres et leur lien affectif exceptionnel",
+          "date": "10 Mai 2025",
+          "theme": "Comportements attendrissants",
+          "image": "https://cdn.pixabay.com/photo/2021/07/19/20/24/otter-6478966_1280.jpg"
+        },
+        {
+          "titre": "Pourquoi les chiots et chatons nous font tant craquer ?",
+          "date": "4 Mai 2025",
+          "theme": "Science de la mignonnerie",
+          "image": "https://cdn.pixabay.com/photo/2016/11/22/21/42/cat-1850177_1280.jpg"
+        },
+        {
+          "titre": "Ces animaux rares mais adorables à découvrir absolument",
+          "date": "27 Avril 2025",
+          "theme": "Découvertes inattendues",
+          "image": "https://cdn.pixabay.com/photo/2020/04/28/08/55/pika-5105992_1280.jpg"
+        },
+        {
+          "titre": "Les animaux les plus câlins selon leurs soigneurs",
+          "date": "19 Avril 2025",
+          "theme": "Relations homme-animal",
+          "image": "https://cdn.pixabay.com/photo/2018/01/07/13/01/penguins-3064237_1280.jpg"
+        },
+        {
+          "titre": "Top 10 des vidéos d’animaux les plus craquantes de 2025 (jusqu’à maintenant)",
+          "date": "12 Avril 2025",
+          "theme": "Tendances & viralité",
+          "image": "https://cdn.pixabay.com/photo/2017/02/20/18/03/dog-2083495_1280.jpg"
+        }
+      ],
+      "themes": [
+        {
+          "nom": "Stars du web animalier",
+          "description": "Les animaux qui font fondre les internautes à travers le monde."
+        },
+        {
+          "nom": "Comportements attendrissants",
+          "description": "Gestes, sons et habitudes des animaux les plus mignons."
+        },
+        {
+          "nom": "Science de la mignonnerie",
+          "description": "Pourquoi trouvons-nous certains animaux si irrésistibles ?"
+        },
+        {
+          "nom": "Découvertes inattendues",
+          "description": "Des espèces méconnues et adorables qui méritent votre attention."
+        },
+        {
+          "nom": "Relations homme-animal",
+          "description": "Les liens affectifs entre humains et animaux dans les refuges, zoos ou foyers."
+        },
+        {
+          "nom": "Tendances & viralité",
+          "description": "Les vidéos, mèmes et phénomènes animaux les plus populaires du moment."
+        }
+      ],
+      "auteurs": [
+        {
+          "prenom": "Claire",
+          "typeExperience": "Comportementaliste animalière",
+          "presentation": "Je décrypte les comportements touchants et sociaux des animaux domestiques et sauvages."
+        },
+        {
+          "prenom": "Thomas",
+          "typeExperience": "Vidéaste animalier",
+          "presentation": "Je parcours le monde pour capturer les scènes les plus craquantes du règne animal."
+        },
+        {
+          "prenom": "Elena",
+          "typeExperience": "Rédactrice nature & bien-être",
+          "presentation": "Je m’intéresse à la façon dont les animaux adoucissent nos vies et réduisent le stress."
+        }
+      ]
+    }
+  }
+  
