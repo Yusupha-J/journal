@@ -19,8 +19,57 @@ function getData() {
       let h1 = document.createElement('h1');               
       h1.textContent = dataArticlePrincipal.titre
 
-      articlePricipal.appendChild(h1)
+      let articleTitre = document.createElement('h2')                
+        let articleDate =  document.createElement('p')
+        let articleTheme = document.createElement('h4')
+        let articleImage = document.createElement('img')
+
+
+        articleTitre.textContent = dataArticlePrincipal.titre        
+        articleDate.textContent = dataArticlePrincipal.date
+        articleTheme.textContent = dataArticlePrincipal.theme
+        articleImage.src = dataArticlePrincipal.image
+
+      articlePricipal.appendChild(articleTitre)
+      articlePricipal.appendChild(articleDate)
+      articlePricipal.appendChild(articleTheme)
+      articlePricipal.appendChild(articleImage)
           
+      
+      let articles = data.journal.articles;
+      let articlesContainer = document.getElementById(`articles`)
+      // foreach
+      articles.forEach(article => {
+        let cardArticle = document.createElement('article')
+        let h1 = document.createElement('h1');               
+      h1.textContent = article.titre
+
+      let articleTitre = document.createElement('h2')                
+        let articleDate =  document.createElement('p')
+        let articleTheme = document.createElement('h4')
+        let articleImage = document.createElement('img')
+
+
+        articleTitre.textContent = article.titre        
+        articleDate.textContent = article.date
+        articleTheme.textContent = article.theme
+        articleImage.src = article.image
+
+      cardArticle.appendChild(articleTitre)
+      cardArticle.appendChild(articleDate)
+      cardArticle.appendChild(articleTheme)
+      cardArticle.appendChild(articleImage)
+      articlesContainer.appendChild(cardArticle)
+      });
+
+
+
+      let animauxContainer = document.getElementById('animaux-container');
+      console.log(animauxContainer);
+
+
+      // `${jounral.nom} - ${journal.date}`
+
 
        /// FIN DU CODE
      })
